@@ -1,0 +1,130 @@
+body{
+    font-family: "Open Sans";
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+  
+.header{
+    background: url(../img/sample2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 100vh;
+    position: static;
+    padding: 4%;
+    z-index: 1;
+}
+
+#login {
+    margin-left: 91%;
+    font-size: 0.75vw;
+    text-decoration: none;
+    position: relative;
+    margin-top: -2%;
+    color: white;
+}
+
+a{
+    color:white;
+}
+
+#login a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:nth-last-of-type(1){
+    padding-left: 23%;
+    position: relative;
+}
+
+.landing-logo h3{
+    color: white;
+    padding-top: 10px;
+    margin-left: 40px;
+    font-weight: 100;
+    font-size: 0.75vw;
+    letter-spacing: 3px;
+    word-spacing: 2px;;
+}
+
+h1{
+    text-align: center;
+    font-size: 3vw;
+    position: relative;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 8px;
+    word-spacing: 6px;
+    margin-top: 16.5%;
+}
+
+span{
+    font-size: 5vw;
+}
+
+#brand p{
+    text-align: center;
+    color: white;
+    font-size: 0.95vw;
+    margin-top: -15px;
+}
+
+nav{
+    display: block;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    position: relative;
+}
+
+ol{
+    list-style-type: none;
+    display: block;
+}
+
+.navigation li{
+    margin-top: 9vw;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    width: 12.5vw;
+    height: 6vh;
+    display: inline-block;
+    margin-left: 11vw;
+    position: relative;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+button:after{
+    border-color: white;
+}
+
+header:after{
+    content: '';
+    display: inline-block;
+    height: 45vh;
+    background: black;
+    position: absolute;
+    width: 97.95vw;
+    margin-left: -4vw;
+    margin-top: 3.9%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
