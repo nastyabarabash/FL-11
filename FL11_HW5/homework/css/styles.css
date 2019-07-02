@@ -1,0 +1,154 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+/* :root {
+  --bg-color--dark: #0b192f;
+  --bg-color--header: #162b4d;
+  --link: #fff;
+  --link--hover: #b8b8b8;
+  --bg-footer-color: #162b4d;;
+} */
+
+body {
+  font-family: roboto;
+}
+.post-1 {
+	background: #B71757;
+}
+.post-2 {
+	background: #0D7E71;
+}
+.post-3 {
+	background: #b1660e;
+}
+.post-4 {
+	background: #d12767;
+}
+.post-5 {
+	background: #2d95bb;
+}
+
+/* Your styles go here */
+@media screen and (max-width: 1400px){
+  body{
+    background-color: #0b192f;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20px;
+  }
+
+  .logo_name span{
+    color: red;
+    font-weight: 100;
+  }
+
+  .logo_name{
+    font-weight: 100;
+    padding: 1vh 0vh 1vh 4vh;
+    margin-top: -1vh;
+    text-align: left
+  }
+
+  .logo{
+    max-width: 80%;
+    margin: 0 auto;
+    width: auto;
+    background-color: #162b4d;
+  }
+
+  nav{
+    display: flex;
+    margin-left: 50vw;
+    margin-bottom: -25vh;
+    margin-top: -8vh;
+    position: relative;
+  }
+
+  .sections{
+    list-style-type: none;
+    display: block;
+    margin: 0vh;
+    padding: 2vh;
+  }
+
+  .navigation li{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 2vw;
+    font-weight: 100;
+    font-size: 0.7em
+  }
+
+  .image1, .image2, 
+  .image3, .image4{
+    width: 23.7vw;
+    height: 23.7vw;
+  }
+
+  .post{
+    max-width: 50%;
+    margin-left: 50%;
+    margin-top: -40vh;
+  }
+
+  .blog-post{
+    max-width: 90%;
+    display: flex;
+    height: 100%
+  }
+
+  .post1{
+    margin-top: 16%;
+  }
+
+  .blog-post:nth-of-type(even){
+  flex-direction: row-reverse;
+  }
+
+  .blog-post:nth-of-type(even){
+    padding-right: 41.2%;
+  }
+
+  .blog-post:nth-of-type(odd){
+    padding-left: 10%;
+  }
+
+  a{
+    font-size: 2.1em;
+    font-weight: 100;
+    text-decoration: none;
+    color:white;
+    max-width: 38.7vw;
+    height: 100%;
+  }
+
+  p{
+    font-size: 0.5em;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    max-width: 38.7vw;
+    display: inline-block;
+  }
+
+  .post-1, .post-2, 
+  .post-3, .post-4{
+    width: 23.7vw;
+    height: 23.7vw;
+  }
+
+  .blog-post:nth-of-type(even){
+    text-align: right;
+  }
+
+  .paragraph:nth-of-type(even){
+    text-align: right;
+  }
+
+  .post-5{
+    width: 47.4vw;
+  }
+  
+}
