@@ -7,3 +7,16 @@
       }
       return array;
   }
+
+  function findTypes() {
+      let obj = {};
+      for(let i = 0; i < arguments.length; i++) {
+          let a = typeof arguments[i];
+          if(obj[a] === undefined) {
+              obj[a] = 1;
+          } else {
+              obj[a] += 1;
+          }
+      }
+      return obj;
+  }
